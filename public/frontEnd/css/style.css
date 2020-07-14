@@ -1,0 +1,159 @@
+/*global*/
+*{margin: 0;text-align: center;}
+hr{box-shadow: 1px 1px 1px 1px #000000;}
+a:hover{text-decoration: none;}
+.table-bordered td, .table-bordered th {
+    text-align: center;
+}
+
+/*.global*/
+
+/* vertical nav*/
+
+.nav{background-color: #222222;position: fixed;width:200px;height: 100%;}
+.nav h4{margin-bottom: 25px;color: #ffffff;margin-left: 5px;}
+.nav a{color: #9a928d;font-size: 20px;}
+.nav a:hover{text-decoration: none;color: #ffffff;}
+.nav ul{list-style: none;}
+.nav ul li{margin-bottom: 30px;}
+
+/*vertical ./nav*/
+
+/*horzintal nav*/
+
+.nav2{background-color: #222222;position: absolute;top: 0;left: 200px;width: 85%;padding-top: 10px;padding-bottom: 10px;}
+.nav2 i{font-size: 40px; color: #9a928d;}
+.nav2 i:hover{color:#ffffff;}
+.dropdown-menu{background-color: #000000;text-align: right;left: -150px;top: 68px;width: 300px;}
+.dropdown-menu a{color:#9a928d;}
+.dropdown-item:hover{background-color: #9a928d;color: #ffffff;}
+
+
+/*horizintal nav*/
+
+/*home state */
+.home-stats{padding-top: 250px;}
+
+.row{margin-left: 150px;}
+
+.home-stats .stat{background-color: #EEE;padding: 20px;font-size: 15px;border-radius: 10px;color: #FFF;overflow: hidden;}
+
+.home-stats .stat i{position: absolute;font-size: 80px;top: 25px;left: 30px;}
+
+.home-stats .stat .info{float: right;}
+
+.home-stats .stat a{color: #FFF;}
+
+.home-stats .stat a:hover{text-decoration: none;}
+
+.home-stats .stat span{display: block;font-size: 50px;}
+
+.home-stats .st-members{background-color: #3498db;}
+
+.home-stats .st-pending{background-color: #c03a2b;}
+
+.home-stats .st-items{background-color: #d35400;}
+
+.home-stats .st-comments{background-color: #8f44da;}
+
+
+/*./ home state*/
+
+/*home page*/
+.homePage{padding-left: 250px;padding-top: 100px;}
+.homePage h1{text-align: center;margin-bottom: 40px;}
+.head-tr{background-color: #000;color: #ffffff;}
+.mem-bag h1{margin-top: 3%;margin-bottom: 2%;}
+
+/*home page*/
+
+/*editSlide*/
+.editSlide{padding-top: 200px;margin-left: 35%;width: 50%;}
+.editSlide .form-group{margin-bottom: 40px;}
+.editSlide .form-group input{height: 45px;}
+.editSlide .form-group input{background-color:#ffffff73;}
+
+/*editSlide*/
+
+
+/*sum_serv*/
+
+.sum_serv{text-align: center;}
+.sum_serv h1{margin-left: 25%;margin-top: 30px;}
+.se{box-shadow: 1px 1px 1px 1px #ffffff;padding: 25px;margin-left: 25%;margin-bottom: 20px;}
+
+/*./sum_serv*/
+
+/*important client*/
+.impor{text-align: center;padding-left: 250px;}
+.impor h1{margin-top: 30px;}
+/*./important client*/
+
+/*our work*/
+.ourWork{text-align: center;padding-left: 250px;}
+.ourWork h1{margin-top: 30px;}
+/*./our work*/
+/*about page*/
+/*covae image*/
+.aboutCover{text-align: center;}
+.aboutCover h1{padding-top: 150px;margin-left: 25%;margin-bottom: 15px;}
+
+
+/*about vesion*/
+.aboutVesion{text-align: center;}
+.aboutVesion h1{padding-top: 40px;margin-left: 25%;margin-bottom: 15px;}
+
+/*why us*/
+.whyUS{text-align: center;}
+.whyUS h1{padding-top: 40px;margin-left: 25%;margin-bottom: 15px;}
+
+
+/*about new team member*/
+
+.editSlide label{font-size: 20px;}
+
+
+/*our work page*/
+
+.impor-2{text-align: center;padding-top: 150px;margin-left: 15%;}
+.impor-2 h1{margin-bottom: 15px;}
+
+
+/*contact Page*/
+
+.contact-us{text-align: center;padding-top: 150px;margin-left: 15%;}
+.contact-us h1{margin-bottom:20px;}
+/*./contact*/
+
+
+/*services*/
+.serv-cover{text-align: center;padding-top: 150px;margin-left: 15%;}
+.serv-cover h1{margin-bottom:20px;}
+
+
+/*insights*/
+.insights{text-align: center;padding-top: 150px;margin-left: 15%;}
+.insights h1{margin-bottom:20px;}
+
+/*posts*/
+.admin-post{padding-top: 150px;}
+.admin-content {margin-left: 20%;}
+.admin-content .page-title{text-align: center;margin-bottom: 1.5rem;margin-top: 2rem;}
+.post-table{width: 100%;border-collapse: collapse;font-size: 1.1rem;}
+.post-table th, td{padding: 15px;text-align: left;border-bottom: 1px solid #3d3d3d;}
+.Edit{color: green;}
+.Delete{color: red;}
+.Publish{color: blue;}
+
+/*newpost*/
+.new-post div{padding-bottom: 15px;}
+.new-post button{width: 20%;padding-top: 10px;}
+
+/*admin login*/
+
+.admin-login{width: 50%;text-align: center;margin-left: 25%;margin-top: 150px;box-shadow: 1px 1px 1px 1px #ffffff;padding: 25px;overflow: hidden;}
+.admin-login h1{color: #ffffff;font-family: 'Courier New', Courier, monospace;}
+.admin-login hr{box-shadow: 2px 2px 2px 2px #000;}
+.admin-login input{width: 100%;height: 50px;padding-left: 20px;margin-top: 25px;background-color: #4a3d35;color: #ffffff;}
+
+/*admin login*/
